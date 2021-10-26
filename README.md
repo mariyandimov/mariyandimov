@@ -174,14 +174,24 @@ while ($i < 10) {
 
 
 <?php
-$users = ['ivan', 'gosho', 'mariyan', 'petko', 'dragan'];
+$users = ['ivan', 'vtorikliuch'=>'gosho', 'mariyan', 'petko', 'dragan'];
 
 foreach ($users as $key => $user) {
     echo 'key: ' . $key . ' IS:' . $user . '<br>';
 }
 
 $user - взима стойността на всяка итерация
-$key - взима всеки кл
+$key - взима всеки ключ
+резултата от echo-то е следния:
+key: 0 IS:ivan
+key: vtorikliuch IS:gosho
+key: 2 IS:mariyan
+key: 3 IS:petko
+key: 4 IS:dragan
+
+
+
+
 
 
 
